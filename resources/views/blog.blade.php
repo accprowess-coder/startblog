@@ -4,7 +4,7 @@
         <title>My Blog</title>
     </head>
     <body>
-        <h1>{{ $title}}</h1>
-        <p>This is my first Laravel blog page</p>
+        <h1>{{ $post->title }}</h1>
+        <p>{{ $post->content }}</p>
     </body>
 </html>
