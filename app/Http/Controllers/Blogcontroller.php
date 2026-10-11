@@ -8,6 +8,7 @@ class Blogcontroller extends Controller
 {
     public function index()
     {
-        return view('blog');
+    $title ='My first Laravel Blog';   
+    return view('blog',['title'=> $title]);
     }
 }
